@@ -1,0 +1,56 @@
+.login-container {
+  width: auto;
+  height: 1000px;
+}
+
+.login-title {
+  color: #0096c7;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  margin-top: 95px;
+}
+
+.login-subtitle {
+  color: #fff;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.form-section {
+  background-color: #c0cdd3;
+  height: 1000px;
+}
+
+.login-form-box {
+  background-color: #fff;
+  width: 478px;
+  height: 407px;
+  padding: 35px;
+}
+
+.form-header-title {
+  color: #212121;
+  font-weight: 300;
+  font-size: 32px;
+}
+.form-header-subtitle {
+  color: #928b8b;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.login-form-box input {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.login-form-box input[type="submit"] {
+  background-color: #0096c7;
+}

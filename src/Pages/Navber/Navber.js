@@ -6,13 +6,7 @@ import { Link } from "react-router-dom";
 const Navber = () => {
   return (
     <>
-      <Navbar
-        collapseOnSelect
-        expand="lg"
-        bg="Transparent"
-        variant="dark"
-        sticky="top"
-      >
+      <Navbar collapseOnSelect expand="lg" bg="Transparent" variant="dark">
         <Container>
           <Navbar.Brand href="#home">
             <img src="https://i.ibb.co/61MwMgS/globetech-logo.png" alt="" />
