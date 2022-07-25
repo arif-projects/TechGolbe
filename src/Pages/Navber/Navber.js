@@ -1,6 +1,7 @@
 import React from "react";
 import "./Navber.css";
 import { Container, Nav, Navbar } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Navber = () => {
   return (
@@ -19,9 +20,15 @@ const Navber = () => {
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
             <Nav className="menu">
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#features">Services</Nav.Link>
-              <Nav.Link href="#pricing">Login</Nav.Link>
+              <Nav.Link as={Link} to="/home">
+                Home
+              </Nav.Link>
+              <Nav.Link as={Link} to="/services">
+                Services
+              </Nav.Link>
+              <Nav.Link as={Link} to="/login">
+                Login
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
